@@ -1,0 +1,4 @@
+Create a form with seven radio buttons, one for each day of the week.
+
+Using a switch statement, display your schedule for the day that is selected.
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My schedule</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form>
+        <div class="row">
+            <div class="content">
+                <h2>My schedule</h2>
+                <h3>Choose a day to view the schedule.</h3>
+                <input type="radio" name="week-day" id="monday" data-week-day=0>
+                <label for="monday">Monday</label>
+                <br>
+                <input type="radio" name="week-day" id="tuesday" data-week-day=1>
+                <label for="tuesday">Tuesday</label>
+                <br>
+                <input type="radio" name="week-day" id="wednesday" data-week-day=2>
+                <label for="wednesday">Wednesday</label>
+                <br>
+                <input type="radio" name="week-day" id="thursday" data-week-day=3>
+                <label for="thursday">Thursday</label>
+                <br>
+                <input type="radio" name="week-day" id="friday" data-week-day=4>
+                <label for="friday">Friday</label>
+                <br>
+                <input type="radio" name="week-day" id="suturday" data-week-day=5>
+                <label for="suturday">Suturday</label>
+                <br>
+                <input type="radio" name="week-day" id="sunday" data-week-day=6>
+                <label for="sunday">Sunday</label>
+                <br>
+                <p id="scheduleOutput"></p>
+                <!-- <button id="animateButton">Add!</button> -->
+            </div>
+
+        </div>
+
+    </form>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- <script src="jquery.js"></script> -->
+<script src="script.js"></script>
+
+</html>
